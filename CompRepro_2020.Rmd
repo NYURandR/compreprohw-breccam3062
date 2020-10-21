@@ -25,9 +25,13 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+One method Wilson et. al suggested as good practice for computational reproducibility is data management. The study summarizes this as saving/backing up raw data, creating analysis-friendly data, recorded all processing steps, using unique identifiers, and submitting data to reputable DOI-issuing repositories. This is great practice for computational reproducibility because these measures ensure analysis can be redone if raw data is stored in multiple secure locations. Having the analysis be performed with detailed documentation and with future replication in mind also prevents hardships in replication later. Reputable repositories are also important for submission because they are accessible and trusted by other researchers who wish to replicate the computational process. R can be a useful tool to carry out these measures because it is robust enough for big data manipulation, is flexible enough to construct analysis pipelines for future use, is open-source, and has been used to analyze data submitted to many reputable respositories. 
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
 
+x <- 4 ^ 13
+x_sqrt <- sqrt(x)  
+x_sqrt
 
 4) Push this homework to the GitHub repository for the homework. 
 
